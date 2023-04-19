@@ -51,8 +51,6 @@ def play_again():
     else:
         return False
 
-
-
 # -------------------------
 questions = {
     "who created python? :":"A",
@@ -60,12 +58,12 @@ questions = {
     "python is tributed to which comedy group?:":"C",
     "is the earth round?:":"A"
 }
-options=[["A. Guido Van Rossum","B. Elon Musk","C. Bill Gates","D. Mark Zuckerburg"],
+options=[["A. Guido Van Rossum","B. Elon Musk","C. Bill Gates","D. Mark Zuckerberg"],
          ["A. 1989","B. 1991","C. 2000","D. 2016"],
-         ["A. Lonely Island","B smosh","C. Monty Python","D. SNL"],
+         ["A. Lonely Island","B Smosh","C. Monty Python","D. SNL"],
          ["A. True","B. False","C. sometimes","D. What's Earth?"]]
 
 new_game()
 while play_again():
     new_game()
-print("byeeee!")
+print("Byeeee!")
